@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+
+void main(){
+	char  ch = 'A';
+	for(int itr =0 ;itr<4;itr++){
+
+		for(int jtr =0 ;jtr<4;jtr++){
+
+			jtr<3-itr?printf(" "):printf("%c",ch+jtr);;
+		}
+		printf("\n");	
+	}	
+
+}	
